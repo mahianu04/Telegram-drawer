@@ -1,3 +1,12 @@
 *.dart linguist-language=Dart
+
+# Suppress C++
 *.cpp linguist-vendored
+*.cc linguist-vendored
+*.cxx linguist-vendored
+*.hpp linguist-vendored
+*.h linguist-vendored
+
+# Suppress CMake
+CMakeLists.txt linguist-vendored
 *.cmake linguist-vendored
